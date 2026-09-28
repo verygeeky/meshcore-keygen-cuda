@@ -1,0 +1,22 @@
+# Generated keys are secrets. Never commit them.
+archive/
+*.json
+*.key
+*-capture.txt
+*.log
+cap2-out.txt
+MIGRATION-*.md
+
+# build outputs
+meshcore-keygen
+meshcore-keygen-fast
+test_host
+verify_format
+# old binary names
+mc-keygen
+mc-keygen-fast
+*.o
+
+# python
+.venv/
+__pycache__/
